@@ -1,13 +1,17 @@
 # Today I learn
 ---
 ## Category
-*[Database](#database)
+:star: [Database](#database)
 
-*[Book](#book)
+:star: [Book](#book)
 
-*[Một số resource hay](#resource)
+:star: [Một số resource hay](#resource)
 
-*[Code](#code)
+:star: [Code](#code)  
+
+:star: [Linux](#linux)
+
+:star: [Linh tinh](#linhtinh)
 
 ### Database
 
@@ -15,6 +19,12 @@
 
 ### Resource
 - [system-design-primer](https://github.com/donnemartin/system-design-primer)
+- [emoji](resource/github_emoji.md)
 
 ### Code
-- [code base](code/common.md)
+- [code base](code/common.md)  
+
+### Linux
+- [namespace](linux/namespace.md)
+### Linh tinh
+- [zsh và plugin](linhtinh/zsh.md)

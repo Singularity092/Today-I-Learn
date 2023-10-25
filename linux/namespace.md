@@ -21,4 +21,6 @@
              **exit**
             
             Giúp 2 db sử dụng thư viện và tài nguyên từ /root/sql-dependencies
-            - Namespace network : 
+            - Namespace network :   
+              + tạo 2 namespace network cho  2 version  
+              + map namespace network đó với default namespace

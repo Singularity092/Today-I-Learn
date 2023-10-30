@@ -16,7 +16,7 @@
 ### Database
 
 ### Book
-
+- [how psychology works](book/how_psychology_works.md)
 ### Resource
 - [system-design-primer](https://github.com/donnemartin/system-design-primer)
 - [emoji](resource/github_emoji.md)

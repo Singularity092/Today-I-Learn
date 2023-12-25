@@ -19,3 +19,11 @@ docker <object> <command> <option>
 - Docker image là các read only layer xếp chồng lên nhau
 
 - Dùng docker save và docker load để phân phối và thêm image docker.
+
+```
+bind mount
+docker container run --name name-container -v hostDirectory: containerDirectory(: ro) image
+
+volume
+docker container run --name name-container -v volumeName: containerDirectory(: ro) image
+```

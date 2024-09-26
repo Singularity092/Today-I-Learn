@@ -76,3 +76,37 @@ public class Log {
 }
 
 ```
+
+### 2. **Factory Pattern**
+Tạo object mà không để lộ logic khởi tạo
+```
+public enum VehicleType {
+    CAR, MOTORCYCLE, TRUCK
+}
+```
+
+```
+public class Vehicle {
+    public void run() {
+        System.out.println("-----------");
+    }
+}
+```
+
+```
+public class Car extends Vehicle {
+    @Override
+    public void run() {
+        System.out.println("++++++++++.");
+    }
+}
+```
+
+```
+public class Truck extends Vehicle {
+    @Override
+    public void run() {
+        System.out.println("__________");
+    }
+}
+```
